@@ -1,0 +1,54 @@
+.owl-theme .owl-controls{margin-top:10px;text-align:center;}
+.owl-theme .owl-controls.clickable .owl-buttons div:hover{filter:Alpha(Opacity=100);opacity:1;text-decoration:none;background:#f5f5f5;background:-moz-linear-gradient(top, #f5f5f5 0%, #c5c5c5 100%);background:-webkit-linear-gradient(top, #f5f5f5 0%,#c5c5c5 100%);background:linear-gradient(to bottom, #f5f5f5 0%,#c5c5c5 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5f5f5', endColorstr='#c5c5c5',GradientType=0);}
+.owl-theme .owl-controls .owl-page{display:inline-block;zoom:1;*display:inline;}
+.owl-theme .owl-controls .owl-page span{display:block;width:12px;height:12px;margin:5px 7px;filter:Alpha(Opacity=50);opacity:0.5;-webkit-border-radius:20px;-moz-border-radius:20px;border-radius:20px;background:#869791;}
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span{filter:Alpha(Opacity=100);opacity:1;}
+.owl-theme .owl-controls .owl-page span.owl-numbers{height:auto;width:auto;color:#FFF;padding:2px 10px;font-size:12px;-webkit-border-radius:30px;-moz-border-radius:30px;border-radius:30px;}
+.owl-item.loading{min-height:150px;background:url(AjaxLoader.gif) no-repeat center center}
+.owl-carousel .item > img{border-radius:7px;}
+.owl-carousel .item{border-radius:10px !important;}
+
+
+.owl-next{
+	text-align: center;
+	font-size: 25px !important;
+	display:block !important;
+	float: right;
+	color:#000 !important;
+	background: none !important;
+	font-size:24px;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	transition: 500ms;
+	opacity: 0.8 !important;
+	border-radius: 50px;
+	margin-right:5px;
+	font-weight: 300 !important;
+	transform:rotate(90deg); 
+}
+.owl-prev{
+	text-align: center;
+	font-size: 25px !important;
+	display:block;
+	float: left;
+	color:#000 !important;
+	background: none !important;
+	font-size:24px;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	transition: 500ms;
+	opacity: 0.8 !important;
+	border-radius: 50px;
+	margin-left:5px;
+	font-weight: 300 !important;
+	transform:rotate(-90deg); 
+}
+
+
+
+
+
+.owl-prev:hover,.owl-next:hover{opacity: 1 !important;}

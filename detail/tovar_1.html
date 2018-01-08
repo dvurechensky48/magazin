@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251"/>
+<title>Фотогалерея для интернет магазина</title>
+<link rel="stylesheet" href="css/global.css" />
+<script src="../scripts/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="js/slides.min.jquery.js" type="text/javascript"></script>
+<script type="text/javascript">
+		$(function(){
+			$('#products').slides({
+				preload: true,
+				preloadImage: 'img/loading.gif',
+				effect: 'slide, fade',
+				crossfade: true,
+				slideSpeed: 200,
+				fadeSpeed: 500,
+				generateNextPrev: true,
+				generatePagination: false
+			});
+		});
+	</script>
+</head>
+<body>
+<div id="container">
+  <div id="products_example">
+    <div id="products">
+      <div class="slides_container"> <a href="img/4.jpg" target="_blank"><img src="img/4.jpg" width="366" alt="Товар1-4" /></a>
+       <a href="img/1.jpg" target="_blank"><img src="img/1.jpg" width="366" alt="Товар1-1" />       </a> <a href="img/2.jpg" target="_blank"><img src="img/2.jpg" width="366" alt="Товар1-2" /></a>
+        <a href="img/3.jpg" target="_blank"><img src="img/3.jpg" width="366" alt="Товар1-3" /></a> 
+        <a href="img/5.jpg" target="_blank"><img src="img/5.jpg" width="366" alt="Товар1-5" /></a>
+         <a href="img/6.jpg" target="_blank"><img src="img/6.jpg" width="366" alt="Товар1-6" /></a>
+          <a href="img/7.jpg"><img src="img/7.jpg" width="366" alt="Товар1-7" /></a> </div>
+      <ul class="pagination">
+        <li><a href="#"><img src="img/4.jpg" width="55" alt="Товар1-4" /></a></li>
+        <li><a href="#"><img src="img/1.jpg" width="55" alt="Товар1-1" /></a></li>
+        <li><a href="#"><img src="img/2.jpg" width="55" alt="Товар1-2" /></a></li>
+        <li><a href="#"><img src="img/3.jpg" width="55" alt="Товар1-3" /></a></li>
+        <li><a href="#"><img src="img/5.jpg" width="55" alt="Товар1-5" /></a></li>
+        <li><a href="#"><img src="img/6.jpg" width="55" alt="Товар1-6" /></a></li>
+        <li><a href="#"><img src="img/7.jpg" width="55" alt="Товар1-7" /></a></li>
+      </ul>
+    </div>
+  </div>
+  <div id="footer">
+    <p><strong>Здесь можно разместить описание товара</strong>.</p>
+  </div>
+</div>
+</body>
+</html>
